@@ -1,8 +1,17 @@
 body {
-	background-color: blue;
+	background-color: purple;
 
-}
+ }
 
-h1, h2, h3 {
+h2, h3, h4, ul {
 	color: white;
 }
+
+ #slogan {
+ 	font-weight: italic;
+ }
+
+  h1 {
+  	color: white;
+  	font-style: Verdana;
+  }
