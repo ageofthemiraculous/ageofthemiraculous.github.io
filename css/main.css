@@ -1,5 +1,6 @@
 body {
 	background-color: purple;
+	font-family: 'Volkhov', serif;
 
  }
 
@@ -9,6 +10,7 @@ h2, h3, h4, ul {
 
  #slogan {
  	font-weight: italic;
+ 	font-family: 'Alegreya Sans', sans-serif;
  }
 
   h1 {
