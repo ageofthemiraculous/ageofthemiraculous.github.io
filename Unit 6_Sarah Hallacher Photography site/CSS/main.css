@@ -1,0 +1,64 @@
+h1 {
+	text-transform: uppercase;
+    font-family: Lucida, cursive;
+    font-size: 2em;
+    padding-left: 1%;
+    line-height: 6em;
+	display: inline-block;
+	font-weight: 300;
+} 
+
+
+ section {
+   background: #222;
+   color: #fff;
+   overflow: auto;
+ }
+
+nav {
+	font-size: 1.8em;
+ 	float: right;
+} 
+
+nav a {	
+	text-decoration: none;
+	color: white;
+	margin: 1.8em;
+	display: inline-block;
+}
+
+ #Home {
+   float: left;
+ }
+
+ #Blog {
+   float: right;
+ }
+
+  #first set {
+   float: left;
+   width: 30%;
+   padding: 2%;
+   display: block;
+   margin: 0;
+ }
+
+
+  #second set {
+   float: left;
+   width: 30%;
+   padding: 2%;
+   display: block;
+   margin: 0;
+ }
+
+ footer {   
+   background: #222;
+   color: #fff;
+   overflow: auto;
+   text-align: center;
+   padding: 1em 0;
+   clear: both
+
+}
+
