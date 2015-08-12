@@ -1,6 +1,6 @@
 
 body {
-  background-color: #8B4513;
+  background-color: #B18D5A;
   font-size: 20px;
 
  }
@@ -14,16 +14,15 @@ body {
  }
 
  p{
-  font'size: 1em;
+  font-size: 1em;
+  color: white;
  }
 
 header, nav a {
-  background: Peru;
-  oveflow: auto;
+  background: #55342B;
 }
 
 nav a {
-  float: right;
   font-size: 26px;
   color: white;
   text-decoration: none;
@@ -49,17 +48,22 @@ a:hover {
  img {
   width: 40%;
   padding: 30px;
-  float: left;
  }
 
   div {
     padding: 30px;
   }
 
-  #main text {
+  section {
+    display: block;
+    padding: 40px
+  }
+
+  #main-text {
   display: inline-block;
   width: 40%;
   padding: 30px;
+  float: right;
   }
 
 h2, h3, h4, ul, header {
@@ -74,14 +78,18 @@ h2, h3, h4, ul, header {
 
   header {
   	font-size: 28px;
+    padding: 2em;
   }
 
   title {
   	padding: .8em 0;
   }
 
- #footer {
+ footer {
  	color: white;
+  font-size: 12px;
+  float: right;
+  clear: auto;
  }
 
 @media only screen and (max-width: 768px) {
@@ -92,13 +100,14 @@ h2, h3, h4, ul, header {
   
   nav a {
       margin: 0 1.6em .75em 0;
+      float: none;
   }
 
   img {
     width: 320px;
   }
   
-  #main text {
+  #main-text {
     font-size: 1.4em;
     line-height: 1.8em;
   }
@@ -114,6 +123,7 @@ h1, nav {
     
 nav a {
     margin: 0 1em 1em;
+    float: none;
   }
 
 
